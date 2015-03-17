@@ -1,0 +1,29 @@
+{
+  "name": "node-minimal",
+  "version": "0.1.1",
+  "description": "A minimal Node.js app using Express",
+  "author": {
+    "name": "John Crawford",
+    "url": "http://embodied.net"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johncraw/node-minimal"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "dependencies": {
+    "express": "~4.12.x",
+    "cool-ascii-faces": "~1.3.x"
+  },
+  "engines": {
+    "node": "0.12.x"
+  },
+  "license": "MIT"
+}
